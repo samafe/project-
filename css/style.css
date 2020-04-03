@@ -1,0 +1,246 @@
+/*
+Master Stylesheet
+==================================
+Tamplate Name:Minimo
+Author:samafe islam tonnyma
+Author Url:http//samafe.com
+description: PSD to HTML Prectise
+tag:Blog
+*/
+/*
+      Contents
+      ==============
+      1.typrography
+      2.heading
+      3.pragraph
+      4. newsletter
+      5.Button
+      6.Footer
+      
+*/
+/*==========================
+     TRYPOGRAPHY
+     =========================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,800&family=Ubuntu:wght@300&display=swap');
+*{
+box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 14px;
+color: #626262;
+
+}
+h1 h2 h3 h4 h5 h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+/*==========================
+     		Header
+     =========================
+*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	align-items: center;
+}
+}
+.logo{
+	width: 10%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+}
+.menu ul{
+	text-align: right;
+	margin: ;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	
+	color: #626262;
+	padding:0 60px;
+}
+.menu ul li:last-child a{
+	padding-right:0;
+}
+.menu ul li a:hover{
+	color: #74b9ff;
+	transition: .03s all ease-in-out;
+}
+.banner{
+	background-image : url(../images/banner.jpg);
+	height:500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*!-----=====================
+			    Pragraph start Here
+			    ====================----*/
+#blog{
+	width: 80%;
+	margin: 0 auto;
+}
+.blog{
+	margin: 100px 0 0;
+}
+.catagories p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	 color: #b4ad9e;
+	 text-transform: uppercase; 
+}
+.title{
+	padding: 30px 0;
+}
+.content{
+	line-height: 24px;
+	padding-bottom: 50px;
+}
+.blog-part{
+ display: flex;
+ justify-content: space-between;
+ margin: 130px 0;
+}
+.lifestyle, .photodiary{
+	width: 47%;
+}
+.blog-image{
+	padding-bottom: 30px;
+}
+.blog-image img{
+	width: 100%;
+}
+/*!-----=====================
+			    newsletter
+			    ====================----*/
+#newsletter{
+	background-color:#f0f0f0;
+	padding:30px 0;
+	margin: 0 auto;
+}
+.newsletter{
+	text-align: center;
+	margin: 0 auto;
+	width: 30%;
+	padding:30px 0;
+}
+input[type=email]{
+	width: 100%;
+	padding: 10px 45px 10px 5px;
+	
+	border: none;
+	background-color: transparent;
+}
+input[type=email]:focus {
+outline:none;
+}
+input[type=email]::placeholder{
+	color: #626262;
+	font-size:14px;
+}
+.submit{
+	position: absolute;
+	border: none;
+	cursor: pointer;
+	top:11px; 
+	bottom:;
+	left: ;
+	right: ;
+}
+.submit :focus{
+	outline: none;
+}
+
+.form{
+	border-bottom: 1px solid #626262;
+	position: relative;
+}
+/*!-----=====================
+			Button
+			    ====================----*/
+.button{
+	text-align: center;
+}
+.button button{
+	border: none;
+	border: 1px solid#626262;
+	padding: 20px 30px;
+	text-transform: capitalize;
+	font-size: 20px;
+	background: transparent;
+	cursor: pointer;
+}
+.button button:hover{
+	background-color: #626262;
+	color:#ffffffff;
+	transition: .3s all ease-in-out;
+}
+.button button:focus{
+	outline: none;
+}
+.last-section{
+	margin-bottom: 300px !important;
+}
+/*!-----=====================
+			    Footer
+			    ====================----*/
+footer{
+	background-color: #f0f0f0;
+
+}
+.footer{
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-between;
+	background-color: #f0f0f0;
+	padding: 10px 0;
+
+}
+.terms ul{
+	padding:0;
+}
+.terms li{
+	display: inline-block;
+}
+
+.social li{
+	display: inline-block;
+}
+.terms a, .social a{
+	color: #626262;
+	text-decoration: none;
+	padding: 0 15px;
+}
+.terms ul li:first-child a{
+	padding-left: 0;
+}
+.social ul li:last-child a{
+	padding-right: 0;
+}
